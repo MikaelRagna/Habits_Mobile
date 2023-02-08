@@ -10,7 +10,7 @@ import {
 } from '@expo-google-fonts/inter';
 import { Loading } from './src/components/Landing';
 import './assets/splash.png'
-import { Home } from './src/screens/Home';
+import { Routes } from './src/Routes';
 export default function App() {
   const [FontsLoaded] = useFonts({
   Inter_400Regular,
@@ -27,7 +27,7 @@ export default function App() {
 
   return (
     <>
-      <Home/>
+      <Routes/>
       <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
     </>
   );
